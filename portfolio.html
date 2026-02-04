@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natnael Hailemariam - Mechanical Design Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .project-card:hover { transform: translateY(-5px); }
+        .print-break { page-break-inside: avoid; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Header / Hero Section -->
+    <header class="bg-slate-900 text-white py-12 border-b-4 border-blue-500">
+        <div class="container mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between">
+            <div>
+                <h1 class="text-4xl md:text-5xl font-bold tracking-tight">Natnael Hailemariam</h1>
+                <p class="text-xl text-blue-400 mt-2 font-light">Mechanical Engineering Student & SOLIDWORKS Designer</p>
+                <div class="flex flex-wrap gap-4 mt-6 text-sm text-gray-300">
+                    <span class="flex items-center gap-2"><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia</span>
+                    <span class="flex items-center gap-2"><i class="fas fa-envelope"></i> natnael.hailemariam-ug@aau.edu.et</span>
+                    <span class="flex items-center gap-2"><i class="fas fa-phone"></i> +251939229044</span>
+                </div>
+            </div>
+            <div class="mt-8 md:mt-0">
+                <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-all flex items-center gap-2">
+                    <i class="fab fa-google-drive"></i> View Full Drive Portfolio
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-6 md:px-12 max-w-4xl">
+            <h2 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-blue-600 pl-4">About Me</h2>
+            <p class="text-gray-600 leading-relaxed text-lg">
+                Highly motivated Mechanical Engineering student with a passion for transforming concepts into functional mechanical systems. My expertise lies in <strong>SOLIDWORKS</strong>, where I have designed everything from heavy-duty hydraulic systems to precision robotic components. I am currently seeking an internship to apply my skills in mechanical design, prototyping, and manufacturing in a real-world environment.
+            </p>
+            
+            <!-- Skills Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+                <div class="bg-gray-100 p-3 rounded text-center font-medium text-slate-700">SOLIDWORKS (Advanced)</div>
+                <div class="bg-gray-100 p-3 rounded text-center font-medium text-slate-700">3D Modeling & Assembly</div>
+                <div class="bg-gray-100 p-3 rounded text-center font-medium text-slate-700">Prototyping</div>
+                <div class="bg-gray-100 p-3 rounded text-center font-medium text-slate-700">Mechanism Design</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Projects Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-6 md:px-12">
+            <h2 class="text-3xl font-bold text-slate-900 mb-10 text-center">Featured Design Projects</h2>
+
+            <!-- Project 1: Concrete 3D Printer (Featured) -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden mb-10 border border-gray-200 print-break">
+                <div class="md:flex">
+                    <div class="md:w-1/2 bg-gray-200 relative min-h-[300px] flex items-center justify-center group">
+                        <!-- IMAGE PLACEHOLDER: Replace src below with your actual image path -->
+                        <img src="https://placehold.co/800x600/2563eb/ffffff?text=Concrete+3D+Printer+Assembly" alt="Concrete 3D Printer Design" class="w-full h-full object-cover absolute inset-0">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
+                    </div>
+                    <div class="p-8 md:w-1/2 flex flex-col justify-center">
+                        <div class="uppercase tracking-wide text-sm text-blue-600 font-bold mb-1">Current Initiative</div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Concrete 3D Printer Design</h3>
+                        <p class="text-gray-600 mb-4">
+                            Currently designing and prototyping a large-scale concrete 3D printer. This complex assembly involves precise gantry system design, material extrusion mechanics, and structural analysis to handle the weight and flow of concrete.
+                        </p>
+                        <ul class="text-sm text-gray-500 space-y-2 mb-6">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> Custom gantry system modeled in SOLIDWORKS</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> Nozzle and extrusion mechanism simulation</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> Integration of stepper motors and drive systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grid for other projects -->
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- Project 2: Hydraulic Scissor Jack -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 project-card transition-transform duration-300 print-break">
+                    <div class="h-48 bg-gray-200 overflow-hidden relative">
+                         <!-- IMAGE PLACEHOLDER -->
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=Hydraulic+Scissor+Jack" alt="Hydraulic Scissor Jack" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Hydraulic Scissor Jack</h3>
+                        <p class="text-sm text-gray-500 mb-3 font-semibold">Machine Design Project</p>
+                        <p class="text-gray-600 text-sm">
+                            Designed a high-capacity hydraulic scissor jack focusing on lifting mechanisms and hydraulic fluid dynamics. Performed stress analysis on the scissor links to ensure safety under maximum load.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 3: Pressure Vessel -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 project-card transition-transform duration-300 print-break">
+                    <div class="h-48 bg-gray-200 overflow-hidden relative">
+                         <!-- IMAGE PLACEHOLDER -->
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=Pressure+Vessel+Design" alt="Pressure Vessel" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Pressure Vessel Design</h3>
+                        <p class="text-sm text-gray-500 mb-3 font-semibold">Machine Design Project</p>
+                        <p class="text-gray-600 text-sm">
+                            Engineered a cylindrical pressure vessel according to standard safety codes. Included detailed calculations for wall thickness, head geometry, and nozzle reinforcement to withstand internal pressures.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 4: Robotic Arm -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 project-card transition-transform duration-300 print-break">
+                    <div class="h-48 bg-gray-200 overflow-hidden relative">
+                         <!-- IMAGE PLACEHOLDER -->
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=Robotic+Arm+Assembly" alt="Robotic Arm" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Robotic Arm Manipulator</h3>
+                        <p class="text-sm text-gray-500 mb-3 font-semibold">Mechatronics Course</p>
+                        <p class="text-gray-600 text-sm">
+                            Developed a multi-degree-of-freedom robotic arm. The design focused on inverse kinematics, joint selection, and servo motor housing to achieve precise movement and payload handling.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 5: UTM Machine -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 project-card transition-transform duration-300 print-break">
+                    <div class="h-48 bg-gray-200 overflow-hidden relative">
+                         <!-- IMAGE PLACEHOLDER -->
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=UTM+Machine+Design" alt="UTM Machine" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Universal Testing Machine (UTM)</h3>
+                        <p class="text-sm text-gray-500 mb-3 font-semibold">Instrumentation Project</p>
+                        <p class="text-gray-600 text-sm">
+                            Designed the mechanical frame and load-application system for a UTM. Integrated mounting points for load cells and extensometers to accurately measure material properties like tensile strength.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-8 mt-12">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-2xl font-bold mb-4">Let's Build Something Great</h2>
+            <p class="text-gray-400 mb-6">I am ready to bring my design skills and work ethic to the Husky Energy team.</p>
+            <div class="inline-block bg-slate-800 rounded-lg px-6 py-4 border border-slate-700">
+                <p class="text-sm text-gray-400">Contact</p>
+                <p class="text-lg font-semibold">natnael.hailemariam-ug@aau.edu.et</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
